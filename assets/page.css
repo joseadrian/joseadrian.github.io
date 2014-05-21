@@ -26,15 +26,18 @@ body{
   background-color: #fff;
   color: #000;
 }
-.wrapper.skills{
-  background-color: #f8f8f8;
-  color: #000;
-}
 .wrapper.work{
   background-color: #5d5365;
   color: #FFF;
 }
-
+.wrapper.skills{
+  background-color: #f8f8f8;
+  color: #000;
+}
+.wrapper.games{
+  background-color: rgba(36, 91, 216, 0.65);
+  color: #fff;
+}
 
 
 .technology .img{

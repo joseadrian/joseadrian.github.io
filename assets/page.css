@@ -7,7 +7,6 @@ body{
   
   font-size: 20px;
   text-align: center;
-  color: #FFF;
 }
 .wrapper .title{
   margin: 0;
@@ -27,58 +26,35 @@ body{
   background-color: #fff;
   color: #000;
 }
-.wrapper.games{
+.wrapper.skills{
   background-color: #f8f8f8;
   color: #000;
 }
 .wrapper.work{
   background-color: #5d5365;
+  color: #FFF;
 }
 
 
 
-
-#tabla-periodica{
-  
-}
-#tabla-periodica li{
-  float: left;
-  list-style: none;
-  width: 30px;
-  margin: 2px;
-  padding: 5px;
-}
-#tabla-periodica li.empty{
-  border: 0;
-}
-#tabla-periodica .type-tools{
-  background-color: #FFF991;
-}
-#tabla-periodica .type-web{
-  background-color: #AA90FD;
-  color: #fff;
-}
-#tabla-periodica .type-game{
-  background-color: #F991FF;
-}
-#tabla-periodica .type-php{
-  background-color: #FFC591;
-}
-#tabla-periodica .type-api{
-  background-color: #92FF9F;
-}
-#tabla-periodica .type-lang{
-  background-color: #D2FF91;
-}
-#tabla-periodica .type-js{
-  background-color: #8FDBFB;
-}
-#tabla-periodica .type-wtl{
-  background-color: #ECFF91;
-}
-#tabla-periodica .type-si{
-  background-color: #FFDF91;
-}
-#tabla-periodica .type-uk{
+.technology .img{
+  width: 200px;
+  height: 200px;
   background-color: #eee;
+}
+.technology .title{
+  padding: 20px 0;
+}
+.technology.html .img{
+  background-image: url(../img/tech/html5.png);
+}
+.technology.php .img{
+  background-color: #8892BF; 
+  background-image: url(../img/tech/php.png);
+}
+.technology.js .img{
+  background-image: url(../img/tech/javascript.png);
+}
+.technology.css .img{
+  background-image: url(../img/tech/css.png);
 }

@@ -1,0 +1,84 @@
+body{
+  font-family: "Inconsolata";
+}
+
+.wrapper{
+  padding: 60px 0;
+  
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+.wrapper .title{
+  margin: 0;
+  padding-bottom: 60px;
+}
+.wrapper p{
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.wrapper.header{
+  padding: 20px 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eee;
+}
+.wrapper.main{
+  background-color: #fff;
+  color: #000;
+}
+.wrapper.games{
+  background-color: #f8f8f8;
+  color: #000;
+}
+.wrapper.work{
+  background-color: #5d5365;
+}
+
+
+
+
+#tabla-periodica{
+  
+}
+#tabla-periodica li{
+  float: left;
+  list-style: none;
+  width: 30px;
+  margin: 2px;
+  padding: 5px;
+}
+#tabla-periodica li.empty{
+  border: 0;
+}
+#tabla-periodica .type-tools{
+  background-color: #FFF991;
+}
+#tabla-periodica .type-web{
+  background-color: #AA90FD;
+  color: #fff;
+}
+#tabla-periodica .type-game{
+  background-color: #F991FF;
+}
+#tabla-periodica .type-php{
+  background-color: #FFC591;
+}
+#tabla-periodica .type-api{
+  background-color: #92FF9F;
+}
+#tabla-periodica .type-lang{
+  background-color: #D2FF91;
+}
+#tabla-periodica .type-js{
+  background-color: #8FDBFB;
+}
+#tabla-periodica .type-wtl{
+  background-color: #ECFF91;
+}
+#tabla-periodica .type-si{
+  background-color: #FFDF91;
+}
+#tabla-periodica .type-uk{
+  background-color: #eee;
+}
